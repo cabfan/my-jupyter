@@ -1,0 +1,19 @@
+# 忽略所有 UUID 格式的文件夹
+[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}
+
+Vanna/notebooks/[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}
+
+# 忽略临时文件夹
+temp/
+data/
+
+# 忽略 SQLite3 文件
+*.sqlite3
+*.db
+
+# 忽略 Jupyter Notebook 检查点
+.ipynb_checkpoints/
+
+# 忽略 Python 编译文件
+__pycache__/
+*.pyc
